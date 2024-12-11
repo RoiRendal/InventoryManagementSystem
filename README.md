@@ -1,16 +1,23 @@
-I. Project Overview: This project is an Inventory Management System that allows users to manage items, purchase items, and view bills. The system includes features such as adding, deleting, and updating item records, as well as generating bills and managing the cart. The system also includes a search function for bills and a logout function.
+# Inventory Management System
 
-II. Python Concepts and Libraries: This project utilizes various Python concepts and libraries such as:
+## I. Project Overview
+The Inventory Management System is a Python-based application designed to help users manage inventory efficiently, specifically to help the Konica Photo Express business. It provides functionalities for adding, updating, deleting, and viewing inventory items, as well as generating bills for purchases. The application features a user-friendly graphical interface built using Tkinter, making it accessible for users with varying levels of technical expertise.
 
-Object-Oriented Programming (OOP): The project makes use of classes and objects to represent different components of the system such as the Manage class, Item class, and BillWindow class.
-Tkinter: The project uses the Tkinter library for creating the graphical user interface (GUI) for the system.
-SQLite: The project uses the SQLite library for managing the database of item records and bills.
-III. Sustainable Development Goals (SDGs): The chosen SDG for this project is Decent Work and Economic Growth (SDG 8). The project promotes economic growth by providing a system for managing inventory and sales, which can help businesses increase efficiency and profitability.
+## II. Application of Python Concepts and Libraries
+This project utilizes several key Python concepts and libraries:
+- **Tkinter**: Used for creating the graphical user interface (GUI) of the application, allowing users to interact with the system easily.
+- **SQLite3**: A lightweight database used to store inventory data and transaction records, enabling persistent data management.
+- **PIL (Pillow)**: Used for image processing, allowing the application to display images in the GUI.
+- **Object-Oriented Programming (OOP)**: The application is structured using classes to encapsulate functionality related to inventory management, such as `InventoryPage`, `BillWindow`, and `Cart`.
+- **Error Handling**: Implemented to manage exceptions and provide user feedback, ensuring a smooth user experience.
 
-IV. Instructions for Running the Program: To run the program, follow these steps:
+## III. Chosen Sustainable Development Goal (SDG)
+This project aligns with **SDG 12: Responsible Consumption and Production**. By providing an efficient inventory management system, it encourages businesses to optimize their resource use, reduce waste, and promote sustainable practices. The application helps users track inventory levels, manage stock efficiently, and minimize overproduction, contributing to more sustainable consumption patterns.
 
-Clone the GitHub repository to your local machine.
-Navigate to the project directory in your terminal or command prompt.
-Run the command python admin.py to start the program.
-The program will launch a GUI window where you can manage items, purchase items, and view bills.
-Note: The program requires the following libraries to be installed: tkinter, sqlite3, pillow, and pandas. You can install these libraries using pip by running the command pip install tkinter sqlite3 pillow pandas.
+## IV. Instructions for Running the Program
+To run the Inventory Management System, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/InventoryManagementSystem.git
+   cd InventoryManagementSystem
