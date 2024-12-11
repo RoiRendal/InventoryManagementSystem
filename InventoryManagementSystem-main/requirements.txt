@@ -1,0 +1,2 @@
+sqlite3
+pillow==9.2.0
